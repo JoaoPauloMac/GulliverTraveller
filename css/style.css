@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    /* background-image: url(../images/plane-background.png);
+    background-size: cover; */
+    background-color: #1c1c1c;;
+    font-family: 'Montserrat', sans-serif;
+    /* height: 100vh; */
+    margin: 0px auto;
+    box-sizing: border-box;
+    color: white;
+    
+
+}
+
+header{
+    background-color:#1C1C1C;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2 {
+    font-size: 32px;
+    color:white;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    color: #13bbc1;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+
+
+.menu li {
+    margin: 10px;
+    position: relative;
+    
+    
+
+
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #13bbc1;
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    
+
+}
+
+.menu li a:hover{
+    color: white;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    top: 20;
+    left: 0;
+    
+    
+}
+
+.menu li:hover ul,
+.menu li.over ul {   
+    display: flex;
+    flex-direction: column;
+    
+    
+} /* para fazer aquele submenu */
+
+
+
+.menu li ul li {
+    border: 1px solid white;
+    border-radius: 5px;
+    display: block;
+    width: 170px;
+    background-color:black;
+    opacity: 80%;
+    
+}
+
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    /* margin: 100px 100px; */
+    padding: 8% 15%;
+    color: #13bbc1;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    font-weight: 400;
+}
+
+.conteudo article h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.conteudo article h2 p {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape{
+    color: black;
+    background-color: #13bbc1;
+    margin-top: 200px;
+    height: 100%;
+    padding: 22px;
+    text-align: center;
+
+}
